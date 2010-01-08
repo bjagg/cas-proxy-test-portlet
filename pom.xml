@@ -8,7 +8,7 @@
   </parent>
   
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.jasig.portal</groupId>
+  <groupId>org.jasig.portlet</groupId>
   <artifactId>cas-proxy-test-portlet</artifactId>
   <packaging>war</packaging>
 
