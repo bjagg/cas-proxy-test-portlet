@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   
   <parent>
     <groupId>org.jasig</groupId>
@@ -14,13 +13,13 @@
 
   <name>Cas Proxy Test Portlet</name>
   <description>A CASified test portlet.</description>
-  <version>0.1-SNAPSHOT</version>
+  <version>1.0.0-RC1</version>
   <url>http://www.jasig.org</url>
 
   <scm>
-    <connection>scm:svn:https://www.ja-sig.org/svn/sandbox/cas-proxy-test-portlet/trunk</connection>
-    <developerConnection>scm:svn:https://www.ja-sig.org/svn/sandbox/cas-proxy-test-portlet/trunk</developerConnection>
-    <url>http://developer.jasig.org/source/browse/jasigsvn/sandbox/cas-proxy-test-portlet/trunk</url>
+    <connection>scm:svn:https://www.ja-sig.org/svn/sandbox/cas-proxy-test-portlet/tags/rel-1.0.0-RC1</connection>
+    <developerConnection>scm:svn:https://www.ja-sig.org/svn/sandbox/cas-proxy-test-portlet/tags/rel-1.0.0-RC1</developerConnection>
+    <url>http://developer.jasig.org/source/browse/jasigsvn/sandbox/cas-proxy-test-portlet/tags/rel-1.0.0-RC1</url>
   </scm>
   
   <distributionManagement>
