@@ -26,6 +26,7 @@ import javax.portlet.RenderRequest;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.jasig.cas.client.validation.Assertion;
 import org.jasig.cas.client.validation.TicketValidationException;
 import org.jasig.cas.client.validation.TicketValidator;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -91,7 +92,10 @@ public final class ProxyCasController {
 				
 		// attempt to validate the proxy ticket
 		try {
-			validator.validate(proxyTicket, serviceUrl);
+			Assertion assertion = validator.validate(proxyTicket, serviceUrl);
+			
+			// make sure we can proxy other sites
+			String proxyTicket2 = assertion.getPrincipal().getProxyTicketFor("notarealsite");
 			model.put("success", true);
 		} catch (TicketValidationException e) {
 			log.error("Exception attempting to validate proxy ticket", e);
