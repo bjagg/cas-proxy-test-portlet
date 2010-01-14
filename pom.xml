@@ -13,13 +13,13 @@
 
   <name>Cas Proxy Test Portlet</name>
   <description>A CASified test portlet.</description>
-  <version>1.0.0-RC1</version>
+  <version>1.0.0-RC2-SNAPSHOT</version>
   <url>http://www.jasig.org</url>
 
   <scm>
-    <connection>scm:svn:https://www.ja-sig.org/svn/sandbox/cas-proxy-test-portlet/tags/rel-1.0.0-RC1</connection>
-    <developerConnection>scm:svn:https://www.ja-sig.org/svn/sandbox/cas-proxy-test-portlet/tags/rel-1.0.0-RC1</developerConnection>
-    <url>http://developer.jasig.org/source/browse/jasigsvn/sandbox/cas-proxy-test-portlet/tags/rel-1.0.0-RC1</url>
+    <connection>scm:svn:https://www.ja-sig.org/svn/sandbox/cas-proxy-test-portlet/trunk</connection>
+    <developerConnection>scm:svn:https://www.ja-sig.org/svn/sandbox/cas-proxy-test-portlet/trunk</developerConnection>
+    <url>http://developer.jasig.org/source/browse/jasigsvn/sandbox/cas-proxy-test-portlet/trunk</url>
   </scm>
   
   <distributionManagement>
