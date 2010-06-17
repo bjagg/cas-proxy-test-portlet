@@ -29,8 +29,19 @@
     
     <!-- Annotations Configuration -->
     <context:annotation-config/>
-    <context:component-scan base-package="org.jasig.portlet.cas.test.mvc"/>
     
+    <!-- Properties configuration -->
+    <bean id="propertyConfigurer"
+        class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"
+        lazy-init="false">
+        <property name="locations">
+            <list><value>classpath:configuration.properties</value></list>
+        </property>
+    </bean>
+    
+    <bean class="org.jasig.portlet.cas.test.mvc.ProxyCasController" 
+        p:serviceUrl="${portal.server.base}/${portlet.context}"/>
+
     <bean class="org.springframework.web.portlet.mvc.annotation.DefaultAnnotationHandlerMapping"/>    
     
 </beans>

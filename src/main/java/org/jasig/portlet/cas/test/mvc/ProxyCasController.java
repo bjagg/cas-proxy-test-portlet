@@ -95,7 +95,8 @@ public final class ProxyCasController {
 			Assertion assertion = validator.validate(proxyTicket, serviceUrl);
 			
 			// make sure we can proxy other sites
-			String proxyTicket2 = assertion.getPrincipal().getProxyTicketFor("notarealsite");
+			@SuppressWarnings("unused")
+            String proxyTicket2 = assertion.getPrincipal().getProxyTicketFor("notarealsite");
 			model.put("success", true);
 		} catch (TicketValidationException e) {
 			log.error("Exception attempting to validate proxy ticket", e);
