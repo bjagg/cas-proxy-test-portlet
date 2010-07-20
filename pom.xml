@@ -3,7 +3,7 @@
   <parent>
     <groupId>org.jasig</groupId>
     <artifactId>jasig-parent</artifactId>
-    <version>12</version>
+    <version>20</version>
   </parent>
   
   <modelVersion>4.0.0</modelVersion>
@@ -17,8 +17,8 @@
   <url>http://www.jasig.org</url>
 
   <scm>
-    <connection>scm:svn:https://www.ja-sig.org/svn/sandbox/cas-proxy-test-portlet/trunk</connection>
-    <developerConnection>scm:svn:https://www.ja-sig.org/svn/sandbox/cas-proxy-test-portlet/trunk</developerConnection>
+    <connection>scm:svn:https://source.jasig.org/sandbox/cas-proxy-test-portlet/trunk</connection>
+    <developerConnection>scm:svn:https://source.jasig.org/sandbox/cas-proxy-test-portlet/trunk</developerConnection>
     <url>http://developer.jasig.org/source/browse/jasigsvn/sandbox/cas-proxy-test-portlet/trunk</url>
   </scm>
   
