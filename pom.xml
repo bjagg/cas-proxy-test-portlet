@@ -21,27 +21,12 @@
     <developerConnection>scm:svn:https://source.jasig.org/sandbox/cas-proxy-test-portlet/trunk</developerConnection>
     <url>http://developer.jasig.org/source/browse/jasigsvn/sandbox/cas-proxy-test-portlet/trunk</url>
   </scm>
-  
-  <distributionManagement>
-    <site>
-      <id>developer.jasig</id>
-      <url>${jasig-site-dist-base}/cas-proxy-test-portlet/${project.version}</url>
-    </site>
-  </distributionManagement>
     
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <cas.version>3.1.8</cas.version>
     <spring.version>2.5.6</spring.version>
   </properties>
-  
-  <repositories>
-    <repository>
-      <id>jasig-m2</id>
-      <name>JASIG Maven2 Repository</name>
-      <url>http://developer.jasig.org/repo/content/repositories/m2</url>
-    </repository>
-  </repositories>
   
   <dependencyManagement>
     <dependencies>
