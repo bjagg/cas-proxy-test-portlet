@@ -17,9 +17,10 @@
   <url>http://www.jasig.org</url>
 
   <scm>
-    <connection>scm:svn:https://source.jasig.org/sandbox/cas-proxy-test-portlet/trunk</connection>
-    <developerConnection>scm:svn:https://source.jasig.org/sandbox/cas-proxy-test-portlet/trunk</developerConnection>
-    <url>http://developer.jasig.org/source/browse/jasigsvn/sandbox/cas-proxy-test-portlet/trunk</url>
+    <connection>scm:git:git://github.com/Jasig/cas-proxy-test-portlet.git</connection>
+    <developerConnection>scm:git:git@github.com:Jasig/cas-proxy-test-portlet.git</developerConnection>
+    <url>http://github.com/Jasig/cas-proxy-test-portlet</url>
+
   </scm>
     
   <properties>
